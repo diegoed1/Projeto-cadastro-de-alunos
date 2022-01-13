@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="">
+    <title>Cadastro aluno Resilia</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro de Alunos Resilia</h1>
+        <p id="subtitulo">Preencha seus dados abaixo</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">  
+                <label for="nome"><strong> Nome </strong></label>
+                <input type="text" nome="nome" id="nome" placeholder="Digite seu nome" required>
+            </div> 
+        </fieldset>
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" nome="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="campo">
+                <label for="telefone"><strong>Telefone</strong></label>
+                <input type="tel" nome="tel" id="tel" placeholder="DDD + Numero" required>
+            </div>
+            <div class="campo">
+                <label for="data de nascimento"><strong>Data de Nascimento</strong></label>
+                <input type="text" nome="data de nascimento" id="data de nascimento" placeholder="DD/MM/AA" required>
+            </div>
+            
+            <button class="button" type="submit">Enviar</button>
+    </form>
+</body>
+</html>
